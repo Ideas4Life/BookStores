@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA414DAA-9326-44C1-BF5F-A2169E02E7C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Книжный_магазин</RootNamespace>
+    <AssemblyName>Книжный магазин</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Главная.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Главная.Designer.cs">
+      <DependentUpon>Главная.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Жанры.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Жанры.Designer.cs">
+      <DependentUpon>Жанры.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Вход с регистрацией.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Вход с регистрацией.Designer.cs">
+      <DependentUpon>Вход с регистрацией.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Заказ товара.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Заказ товара.Designer.cs">
+      <DependentUpon>Заказ товара.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Регистрация.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Регистрация.Designer.cs">
+      <DependentUpon>Регистрация.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Вход.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Вход.Designer.cs">
+      <DependentUpon>Вход.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Личный кабинет.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Личный кабинет.Designer.cs">
+      <DependentUpon>Личный кабинет.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Адрес доставки.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Адрес доставки.Designer.cs">
+      <DependentUpon>Адрес доставки.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Главная.resx">
+      <DependentUpon>Главная.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Жанры.resx">
+      <DependentUpon>Жанры.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Вход с регистрацией.resx">
+      <DependentUpon>Вход с регистрацией.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Заказ товара.resx">
+      <DependentUpon>Заказ товара.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Регистрация.resx">
+      <DependentUpon>Регистрация.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Вход.resx">
+      <DependentUpon>Вход.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Личный кабинет.resx">
+      <DependentUpon>Личный кабинет.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Адрес доставки.resx">
+      <DependentUpon>Адрес доставки.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\World_of_WarCraft_Magical_animals_Phoenix_520139_3840x2400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UI_-_OUTLINE__GLIPH-15-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptica-feniks.orig.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\016_014_shop_shopping_bag-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchase_basket_shop-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_Mastercard-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VISA-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptica-feniks.orig1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People_Add_man_account_profile_men-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peoples_group_man_account_profile_men-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptica-feniks.orig2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wildlife_animal_bird_eagle_wild_harpy_forest_amazon-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrows-Drawn-THIN-O-28-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_v.18-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptica-feniks.orig3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school_book_noterbook-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008_040_home_apartment_house_building_2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptica-feniks.orig4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011_018_palm_fingers_five-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icon-21-eye-hidden_314858.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icon-21-eye-hidden_3148581.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
