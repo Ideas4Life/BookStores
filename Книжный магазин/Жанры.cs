@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
 using System.Data.OleDb;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Media.Imaging;
+using Книжный_магазин.Properties;
 
 namespace Книжный_магазин
 {
@@ -26,8 +31,7 @@ namespace Книжный_магазин
         // строка подключения к MS Access
         // вариант 1
         public static string connectString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=DataBase\\DB_BookStore.mdb;";
-        // вариант 2
-        //public static string connectString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=DB_BookStore.mdb;";
+
 
         // поле - ссылка на экземпляр класса OleDbConnection для соединения с БД
         public OleDbConnection myConnection;
@@ -72,7 +76,7 @@ namespace Книжный_магазин
             //genre.Location = new Point(this.Size.Width - this.genre.Size.Width - 100, genre.Location.Y);
 
             // текст запроса
-            string query = "SELECT [TitleBook],[PictureBook] FROM [ListBooks] WHERE [GenreBook] = @gen";
+            string query = "SELECT * FROM [ListBooks] WHERE [GenreBook] = @gen";
 
             // создаем объект OleDbCommand для выполнения запроса к БД MS Access
             OleDbCommand command = new OleDbCommand(query, myConnection);
@@ -83,26 +87,55 @@ namespace Книжный_магазин
             OleDbDataReader reader = command.ExecuteReader();
 
             // в цикле построчно читаем ответ от БД
-            string panel = "panelBook";
-            string textBox = "tBTitleBook";
-            int i = 1;
+            
+
+            List<DataBase> listDataBase = new List<DataBase>();
             while (reader.Read())
             {
-                Panel pn= tableBooks.Controls[panel+Convert.ToString(i)] as Panel;
-                (pn.Controls[textBox + Convert.ToString(i++)] as TextBox).Text = reader[0].ToString();
-
-                /*
-                MemoryStream ms = new MemoryStream((Byte[])reader[1]);
-                Image image1 = Image.FromStream(ms);
-                pictureBook1.Image = image1;
-                */
+                listDataBase.Add(new DataBase(reader[1].ToString(), reader[2].ToString(), reader[3].ToString(), int.Parse(reader[4].ToString())));
             }
-        }
-        public Image byteArrayToImage(byte[] byteArrayIn)
-        {
-            MemoryStream ms = new MemoryStream(byteArrayIn, 0, byteArrayIn.Length);
-            ms.Write(byteArrayIn, 0, byteArrayIn.Length);
-            return Image.FromStream(ms, true);
+
+            int count=listDataBase.Count();
+            if (count > 6 && tableBooks.ColumnCount!=count)
+            {
+                
+                for (int f = 6; f < count; f++)
+                {
+                    tableBooks.RowCount = 1;
+                    tableBooks.ColumnCount += count-6;
+                    tableBooks.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 130));
+                    Panel pnl = new Panel();
+                    pnl.BackColor = Color.FromArgb(224, 224, 224);
+                    pnl.BorderStyle = BorderStyle.Fixed3D;
+                    pnl.Dock = DockStyle.Fill;
+                    pnl.Name = "panelBook"+Convert.ToString(f+1);
+                    pnl.Size = new Size(129,172);
+                    
+                    TextBox tb = new TextBox();
+                    tb.ReadOnly = true;
+                    tb.Name = "tBTitleBook" + Convert.ToString(f + 1);
+                    tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 16);
+                    tb.BackColor = Color.FromArgb(224, 224, 224);
+                    tb.Dock = DockStyle.Bottom;
+                    pnl.Controls.Add(tb);
+                    tableBooks.Controls.Add(pnl, f, 0);
+                }
+                tableBooks.AutoScroll = true;
+                tableBooks.Size = new Size(810, 200);
+            }
+            string panel = "panelBook";
+            string textBox = "tBTitleBook";
+            for (int i=1; i<count+1; i++)
+            {
+                Panel pn = tableBooks.Controls[panel + Convert.ToString(i)] as Panel;
+                (pn.Controls[textBox + Convert.ToString(i)] as TextBox).Text = listDataBase[i-1].title;
+
+                Object rm = Properties.Resources.ResourceManager.GetObject("adad-awd");
+                //Bitmap myImage = (Bitmap)rm;
+                //pictureBook1.SizeMode = PictureBoxSizeMode.StretchImage;
+                pictureBook1.Image = (Image) rm;
+            }
+
         }
 
         private void Comiks_Click(object sender, EventArgs e)
@@ -138,4 +171,17 @@ namespace Книжный_магазин
 
         }
     }
+    public class DataBase
+    {
+        public string title, author, discription;
+        public int price;
+        public DataBase(string name, string authr, string discr, int prc)
+        {
+            title=name;
+            author = authr;
+            discription = discr;
+            price = prc;
+        }
+    }
+
 }
