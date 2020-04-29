@@ -66,5 +66,11 @@ namespace Книжный_магазин
         {
 
         }
+
+        private void главная_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // заркываем соединение с БД
+            generes.myConnection.Close();
+        }
     }
 }

@@ -215,6 +215,7 @@
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Главная";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.главная_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Главная_FormClosed);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();

@@ -26,3 +26,20 @@ C:\Users\Полина\Desktop\Учеба 2 курс\4 семестр\пп\Кни
 C:\Users\Полина\Desktop\Учеба 2 курс\4 семестр\пп\Книжный магазин\Книжный магазин\obj\Debug\Книжный_магазин.PersonalRoom.resources
 C:\Users\Полина\Desktop\Учеба 2 курс\4 семестр\пп\Книжный магазин\Книжный магазин\obj\Debug\Книжный_магазин.Adress_dostav.resources
 C:\Users\Полина\Desktop\Учеба 2 курс\4 семестр\ПП\Книжный магазин\Книжный магазин\obj\Debug\Книжный_магазин.zakaz.resources
+F:\Прога\BookStores\Книжный магазин\bin\Debug\Книжный магазин.exe.config
+F:\Прога\BookStores\Книжный магазин\bin\Debug\Книжный магазин.exe
+F:\Прога\BookStores\Книжный магазин\bin\Debug\Книжный магазин.pdb
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный магазин.csprojAssemblyReference.cache
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный_магазин.главная.resources
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный_магазин.Жанры.resources
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный_магазин.LoginRegistration.resources
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный_магазин.zakaz.resources
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный_магазин.Регистрация.resources
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный_магазин.Вход.resources
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный_магазин.PersonalRoom.resources
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный_магазин.Adress_dostav.resources
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный_магазин.Properties.Resources.resources
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный магазин.csproj.GenerateResource.cache
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный магазин.exe
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный магазин.pdb
+F:\Прога\BookStores\Книжный магазин\bin\Debug\DataBase\DB_BookStore.mdb

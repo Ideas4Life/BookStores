@@ -41,16 +41,20 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.back_genres = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.tableBooks = new System.Windows.Forms.TableLayoutPanel();
+            this.panelBook1 = new System.Windows.Forms.Panel();
+            this.pictureBook1 = new System.Windows.Forms.PictureBox();
+            this.tBTitleBook1 = new System.Windows.Forms.TextBox();
+            this.panelBook2 = new System.Windows.Forms.Panel();
+            this.pictureBook2 = new System.Windows.Forms.PictureBox();
+            this.tBTitleBook2 = new System.Windows.Forms.TextBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.tableBooks.SuspendLayout();
+            this.panelBook1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBook1)).BeginInit();
+            this.panelBook2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBook2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -204,103 +208,96 @@
     "\n в какой бы то ни было форме без разрешения владельцевавторских прав запрещено." +
     " ";
             // 
-            // tableLayoutPanel1
+            // tableBooks
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.tableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.OutsetDouble;
-            this.tableLayoutPanel1.ColumnCount = 6;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66542F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66708F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66708F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66709F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.Controls.Add(this.label8, 5, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label7, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label6, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label5, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(94, 294);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(844, 203);
-            this.tableLayoutPanel1.TabIndex = 17;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.TableLayoutPanel1_Paint_1);
+            this.tableBooks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tableBooks.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tableBooks.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.OutsetDouble;
+            this.tableBooks.ColumnCount = 6;
+            this.tableBooks.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66542F));
+            this.tableBooks.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66708F));
+            this.tableBooks.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66708F));
+            this.tableBooks.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66709F));
+            this.tableBooks.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableBooks.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableBooks.Controls.Add(this.panelBook1, 0, 0);
+            this.tableBooks.Controls.Add(this.panelBook2, 1, 0);
+            this.tableBooks.Location = new System.Drawing.Point(94, 294);
+            this.tableBooks.Name = "tableBooks";
+            this.tableBooks.RowCount = 1;
+            this.tableBooks.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableBooks.Size = new System.Drawing.Size(844, 203);
+            this.tableBooks.TabIndex = 17;
+            this.tableBooks.Paint += new System.Windows.Forms.PaintEventHandler(this.TableLayoutPanel1_Paint_1);
             // 
-            // label2
+            // panelBook1
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(146, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(21, 15);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "...";
+            this.panelBook1.Controls.Add(this.pictureBook1);
+            this.panelBook1.Controls.Add(this.tBTitleBook1);
+            this.panelBook1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBook1.Location = new System.Drawing.Point(6, 6);
+            this.panelBook1.Name = "panelBook1";
+            this.panelBook1.Size = new System.Drawing.Size(131, 191);
+            this.panelBook1.TabIndex = 0;
             // 
-            // label3
+            // pictureBook1
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(6, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(21, 15);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "...";
+            this.pictureBook1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBook1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBook1.MaximumSize = new System.Drawing.Size(130, 180);
+            this.pictureBook1.MinimumSize = new System.Drawing.Size(50, 50);
+            this.pictureBook1.Name = "pictureBook1";
+            this.pictureBook1.Size = new System.Drawing.Size(130, 50);
+            this.pictureBook1.TabIndex = 1;
+            this.pictureBook1.TabStop = false;
+            this.pictureBook1.Click += new System.EventHandler(this.pictureBook1_Click);
             // 
-            // label5
+            // tBTitleBook1
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(286, 3);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(21, 15);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "...";
+            this.tBTitleBook1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tBTitleBook1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tBTitleBook1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tBTitleBook1.Location = new System.Drawing.Point(0, 160);
+            this.tBTitleBook1.MaxLength = 131;
+            this.tBTitleBook1.Name = "tBTitleBook1";
+            this.tBTitleBook1.ReadOnly = true;
+            this.tBTitleBook1.Size = new System.Drawing.Size(131, 31);
+            this.tBTitleBook1.TabIndex = 0;
+            this.tBTitleBook1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label6
+            // panelBook2
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(426, 3);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(21, 15);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "...";
+            this.panelBook2.Controls.Add(this.tBTitleBook2);
+            this.panelBook2.Controls.Add(this.pictureBook2);
+            this.panelBook2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBook2.Location = new System.Drawing.Point(146, 6);
+            this.panelBook2.Name = "panelBook2";
+            this.panelBook2.Size = new System.Drawing.Size(131, 191);
+            this.panelBook2.TabIndex = 1;
             // 
-            // label7
+            // pictureBook2
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(566, 3);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(21, 15);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "...";
+            this.pictureBook2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBook2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBook2.MaximumSize = new System.Drawing.Size(130, 180);
+            this.pictureBook2.MinimumSize = new System.Drawing.Size(50, 50);
+            this.pictureBook2.Name = "pictureBook2";
+            this.pictureBook2.Size = new System.Drawing.Size(130, 50);
+            this.pictureBook2.TabIndex = 2;
+            this.pictureBook2.TabStop = false;
             // 
-            // label8
+            // tBTitleBook2
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(706, 3);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(21, 15);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "...";
+            this.tBTitleBook2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tBTitleBook2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tBTitleBook2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tBTitleBook2.Location = new System.Drawing.Point(0, 160);
+            this.tBTitleBook2.MaxLength = 131;
+            this.tBTitleBook2.Name = "tBTitleBook2";
+            this.tBTitleBook2.ReadOnly = true;
+            this.tBTitleBook2.Size = new System.Drawing.Size(131, 31);
+            this.tBTitleBook2.TabIndex = 3;
+            this.tBTitleBook2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Жанры
             // 
@@ -310,7 +307,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1036, 661);
             this.ControlBox = false;
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.tableBooks);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.genre);
@@ -326,8 +323,13 @@
             this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            this.tableBooks.ResumeLayout(false);
+            this.panelBook1.ResumeLayout(false);
+            this.panelBook1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBook1)).EndInit();
+            this.panelBook2.ResumeLayout(false);
+            this.panelBook2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBook2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -348,12 +350,12 @@
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.Label genre;
         private System.Windows.Forms.Button comiks;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TableLayoutPanel tableBooks;
+        private System.Windows.Forms.Panel panelBook1;
+        private System.Windows.Forms.PictureBox pictureBook1;
+        private System.Windows.Forms.TextBox tBTitleBook1;
+        private System.Windows.Forms.Panel panelBook2;
+        private System.Windows.Forms.TextBox tBTitleBook2;
+        private System.Windows.Forms.PictureBox pictureBook2;
     }
 }
