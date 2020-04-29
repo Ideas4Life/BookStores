@@ -132,5 +132,10 @@ namespace Книжный_магазин
         {
 
         }
+
+        private void Жанры_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
