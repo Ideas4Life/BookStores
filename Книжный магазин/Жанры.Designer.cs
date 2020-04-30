@@ -60,6 +60,7 @@
             this.panelBook3 = new System.Windows.Forms.Panel();
             this.tBTitleBook3 = new System.Windows.Forms.TextBox();
             this.pictureBook3 = new System.Windows.Forms.PictureBox();
+            this.addBooks = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableBooks.SuspendLayout();
@@ -268,11 +269,12 @@
             this.tBTitleBook4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tBTitleBook4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tBTitleBook4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tBTitleBook4.Location = new System.Drawing.Point(0, 179);
+            this.tBTitleBook4.Location = new System.Drawing.Point(0, 154);
             this.tBTitleBook4.MaxLength = 131;
+            this.tBTitleBook4.Multiline = true;
             this.tBTitleBook4.Name = "tBTitleBook4";
             this.tBTitleBook4.ReadOnly = true;
-            this.tBTitleBook4.Size = new System.Drawing.Size(125, 31);
+            this.tBTitleBook4.Size = new System.Drawing.Size(125, 56);
             this.tBTitleBook4.TabIndex = 3;
             this.tBTitleBook4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -305,11 +307,12 @@
             this.tBTitleBook5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tBTitleBook5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tBTitleBook5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tBTitleBook5.Location = new System.Drawing.Point(0, 179);
+            this.tBTitleBook5.Location = new System.Drawing.Point(0, 154);
             this.tBTitleBook5.MaxLength = 131;
+            this.tBTitleBook5.Multiline = true;
             this.tBTitleBook5.Name = "tBTitleBook5";
             this.tBTitleBook5.ReadOnly = true;
-            this.tBTitleBook5.Size = new System.Drawing.Size(125, 31);
+            this.tBTitleBook5.Size = new System.Drawing.Size(125, 56);
             this.tBTitleBook5.TabIndex = 3;
             this.tBTitleBook5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -342,11 +345,12 @@
             this.tBTitleBook6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tBTitleBook6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tBTitleBook6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tBTitleBook6.Location = new System.Drawing.Point(0, 179);
+            this.tBTitleBook6.Location = new System.Drawing.Point(0, 154);
             this.tBTitleBook6.MaxLength = 131;
+            this.tBTitleBook6.Multiline = true;
             this.tBTitleBook6.Name = "tBTitleBook6";
             this.tBTitleBook6.ReadOnly = true;
-            this.tBTitleBook6.Size = new System.Drawing.Size(125, 31);
+            this.tBTitleBook6.Size = new System.Drawing.Size(125, 56);
             this.tBTitleBook6.TabIndex = 3;
             this.tBTitleBook6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -457,11 +461,12 @@
             this.tBTitleBook3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tBTitleBook3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tBTitleBook3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tBTitleBook3.Location = new System.Drawing.Point(0, 181);
+            this.tBTitleBook3.Location = new System.Drawing.Point(0, 155);
             this.tBTitleBook3.MaxLength = 131;
+            this.tBTitleBook3.Multiline = true;
             this.tBTitleBook3.Name = "tBTitleBook3";
             this.tBTitleBook3.ReadOnly = true;
-            this.tBTitleBook3.Size = new System.Drawing.Size(127, 31);
+            this.tBTitleBook3.Size = new System.Drawing.Size(127, 57);
             this.tBTitleBook3.TabIndex = 3;
             this.tBTitleBook3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -476,6 +481,19 @@
             this.pictureBook3.TabIndex = 2;
             this.pictureBook3.TabStop = false;
             // 
+            // addBooks
+            // 
+            this.addBooks.BackColor = System.Drawing.Color.Silver;
+            this.addBooks.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addBooks.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.addBooks.Location = new System.Drawing.Point(735, 226);
+            this.addBooks.Name = "addBooks";
+            this.addBooks.Size = new System.Drawing.Size(175, 55);
+            this.addBooks.TabIndex = 14;
+            this.addBooks.Text = "Добавить книгу";
+            this.addBooks.UseVisualStyleBackColor = false;
+            this.addBooks.Click += new System.EventHandler(this.addBooks_Click);
+            // 
             // Жанры
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -484,6 +502,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1036, 661);
             this.ControlBox = false;
+            this.Controls.Add(this.addBooks);
             this.Controls.Add(this.tableBooks);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
@@ -558,5 +577,6 @@
         private System.Windows.Forms.Panel panelBook2;
         private System.Windows.Forms.TextBox tBTitleBook2;
         private System.Windows.Forms.PictureBox pictureBook2;
+        private System.Windows.Forms.Button addBooks;
     }
 }

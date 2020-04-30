@@ -18,6 +18,7 @@ namespace Книжный_магазин
         PersonalRoom personRoom;
         Регистрация registration;
         zakaz Zakaz;
+        AddBooks addBook;
 
         public главная()
         {
@@ -27,13 +28,16 @@ namespace Книжный_магазин
             personRoom = new PersonalRoom();
             registration = new Регистрация();
             Zakaz = new zakaz();
+            addBook = new AddBooks();
 
-            generes.Initialize(adress_dost, LoginRegistration,  personRoom, registration, this, Zakaz);
+            
+            generes.Initialize(adress_dost, LoginRegistration,  personRoom, registration, this, Zakaz, addBook);
             registration.Initialize(adress_dost, LoginRegistration,  generes, personRoom, this, Zakaz);
             LoginRegistration.Initialize(adress_dost, generes, personRoom, registration, this, Zakaz);
             personRoom.Initialize(adress_dost, LoginRegistration, generes, registration, this, Zakaz);
             adress_dost.Initialize(LoginRegistration, generes, personRoom, registration, this, Zakaz);
             Zakaz.Initialize(adress_dost, LoginRegistration, generes, personRoom, registration, this);
+            addBook.Initialize(generes);
 
             InitializeComponent(); 
         }
@@ -60,6 +64,7 @@ namespace Книжный_магазин
             personRoom.Close();
             registration.Close();
             Zakaz.Close();
+            addBook.Close();
         }
 
         private void TableLayoutPanel1_Paint(object sender, PaintEventArgs e)

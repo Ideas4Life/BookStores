@@ -69,6 +69,12 @@
     <Compile Include="Главная.Designer.cs">
       <DependentUpon>Главная.cs</DependentUpon>
     </Compile>
+    <Compile Include="Добавление книги.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Добавление книги.Designer.cs">
+      <DependentUpon>Добавление книги.cs</DependentUpon>
+    </Compile>
     <Compile Include="Жанры.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Главная.resx">
       <DependentUpon>Главная.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Добавление книги.resx">
+      <DependentUpon>Добавление книги.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Жанры.resx">
       <DependentUpon>Жанры.cs</DependentUpon>

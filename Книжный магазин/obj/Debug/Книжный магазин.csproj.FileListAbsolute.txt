@@ -43,3 +43,4 @@ F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный 
 F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный магазин.exe
 F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный магазин.pdb
 F:\Прога\BookStores\Книжный магазин\bin\Debug\DataBase\DB_BookStore.mdb
+F:\Прога\BookStores\Книжный магазин\obj\Debug\Книжный_магазин.AddBooks.resources
