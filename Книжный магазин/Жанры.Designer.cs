@@ -41,8 +41,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.back_genres = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBoxNext = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableBooks = new System.Windows.Forms.TableLayoutPanel();
             this.panelBook4 = new System.Windows.Forms.Panel();
             this.tBTitleBook4 = new System.Windows.Forms.TextBox();
@@ -64,8 +62,6 @@
             this.pictureBook3 = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNext)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableBooks.SuspendLayout();
             this.panelBook4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBook4)).BeginInit();
@@ -232,22 +228,6 @@
     "\n в какой бы то ни было форме без разрешения владельцевавторских прав запрещено." +
     " ";
             // 
-            // pictureBoxNext
-            // 
-            this.pictureBoxNext.Location = new System.Drawing.Point(-23, -46);
-            this.pictureBoxNext.Name = "pictureBoxNext";
-            this.pictureBoxNext.Size = new System.Drawing.Size(100, 50);
-            this.pictureBoxNext.TabIndex = 18;
-            this.pictureBoxNext.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(-23, -46);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
-            // 
             // tableBooks
             // 
             this.tableBooks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -268,7 +248,7 @@
             this.tableBooks.Name = "tableBooks";
             this.tableBooks.RowCount = 1;
             this.tableBooks.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 180F));
-            this.tableBooks.Size = new System.Drawing.Size(810, 180);
+            this.tableBooks.Size = new System.Drawing.Size(810, 220);
             this.tableBooks.TabIndex = 18;
             // 
             // panelBook4
@@ -278,10 +258,10 @@
             this.panelBook4.Controls.Add(this.pictureBook4);
             this.panelBook4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBook4.Location = new System.Drawing.Point(408, 3);
-            this.panelBook4.MaximumSize = new System.Drawing.Size(129, 174);
+            this.panelBook4.MaximumSize = new System.Drawing.Size(129, 215);
             this.panelBook4.MinimumSize = new System.Drawing.Size(129, 174);
             this.panelBook4.Name = "panelBook4";
-            this.panelBook4.Size = new System.Drawing.Size(129, 174);
+            this.panelBook4.Size = new System.Drawing.Size(129, 214);
             this.panelBook4.TabIndex = 9;
             // 
             // tBTitleBook4
@@ -289,7 +269,7 @@
             this.tBTitleBook4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tBTitleBook4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tBTitleBook4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tBTitleBook4.Location = new System.Drawing.Point(0, 139);
+            this.tBTitleBook4.Location = new System.Drawing.Point(0, 179);
             this.tBTitleBook4.MaxLength = 131;
             this.tBTitleBook4.Name = "tBTitleBook4";
             this.tBTitleBook4.ReadOnly = true;
@@ -315,10 +295,10 @@
             this.panelBook5.Controls.Add(this.pictureBook5);
             this.panelBook5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBook5.Location = new System.Drawing.Point(543, 3);
-            this.panelBook5.MaximumSize = new System.Drawing.Size(129, 174);
+            this.panelBook5.MaximumSize = new System.Drawing.Size(129, 215);
             this.panelBook5.MinimumSize = new System.Drawing.Size(129, 174);
             this.panelBook5.Name = "panelBook5";
-            this.panelBook5.Size = new System.Drawing.Size(129, 174);
+            this.panelBook5.Size = new System.Drawing.Size(129, 214);
             this.panelBook5.TabIndex = 8;
             // 
             // tBTitleBook5
@@ -326,7 +306,7 @@
             this.tBTitleBook5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tBTitleBook5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tBTitleBook5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tBTitleBook5.Location = new System.Drawing.Point(0, 139);
+            this.tBTitleBook5.Location = new System.Drawing.Point(0, 179);
             this.tBTitleBook5.MaxLength = 131;
             this.tBTitleBook5.Name = "tBTitleBook5";
             this.tBTitleBook5.ReadOnly = true;
@@ -352,10 +332,10 @@
             this.panelBook6.Controls.Add(this.pictureBook6);
             this.panelBook6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBook6.Location = new System.Drawing.Point(678, 3);
-            this.panelBook6.MaximumSize = new System.Drawing.Size(129, 174);
+            this.panelBook6.MaximumSize = new System.Drawing.Size(129, 215);
             this.panelBook6.MinimumSize = new System.Drawing.Size(129, 174);
             this.panelBook6.Name = "panelBook6";
-            this.panelBook6.Size = new System.Drawing.Size(129, 174);
+            this.panelBook6.Size = new System.Drawing.Size(129, 214);
             this.panelBook6.TabIndex = 7;
             // 
             // tBTitleBook6
@@ -363,7 +343,7 @@
             this.tBTitleBook6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tBTitleBook6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tBTitleBook6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tBTitleBook6.Location = new System.Drawing.Point(0, 139);
+            this.tBTitleBook6.Location = new System.Drawing.Point(0, 179);
             this.tBTitleBook6.MaxLength = 131;
             this.tBTitleBook6.Name = "tBTitleBook6";
             this.tBTitleBook6.ReadOnly = true;
@@ -389,10 +369,10 @@
             this.panelBook1.Controls.Add(this.pictureBook1);
             this.panelBook1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBook1.Location = new System.Drawing.Point(3, 3);
-            this.panelBook1.MaximumSize = new System.Drawing.Size(129, 174);
+            this.panelBook1.MaximumSize = new System.Drawing.Size(129, 215);
             this.panelBook1.MinimumSize = new System.Drawing.Size(129, 174);
             this.panelBook1.Name = "panelBook1";
-            this.panelBook1.Size = new System.Drawing.Size(129, 174);
+            this.panelBook1.Size = new System.Drawing.Size(129, 214);
             this.panelBook1.TabIndex = 6;
             // 
             // tBTitleBook1
@@ -400,17 +380,18 @@
             this.tBTitleBook1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tBTitleBook1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tBTitleBook1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tBTitleBook1.Location = new System.Drawing.Point(0, 139);
+            this.tBTitleBook1.Location = new System.Drawing.Point(0, 154);
             this.tBTitleBook1.MaxLength = 131;
+            this.tBTitleBook1.Multiline = true;
             this.tBTitleBook1.Name = "tBTitleBook1";
             this.tBTitleBook1.ReadOnly = true;
-            this.tBTitleBook1.Size = new System.Drawing.Size(125, 31);
+            this.tBTitleBook1.Size = new System.Drawing.Size(125, 56);
             this.tBTitleBook1.TabIndex = 3;
             this.tBTitleBook1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBook1
             // 
-            this.pictureBook1.BackColor = System.Drawing.Color.Silver;
+            this.pictureBook1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pictureBook1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBook1.Location = new System.Drawing.Point(0, 0);
             this.pictureBook1.MaximumSize = new System.Drawing.Size(130, 180);
@@ -428,10 +409,10 @@
             this.panelBook2.Controls.Add(this.pictureBook2);
             this.panelBook2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBook2.Location = new System.Drawing.Point(138, 3);
-            this.panelBook2.MaximumSize = new System.Drawing.Size(129, 174);
+            this.panelBook2.MaximumSize = new System.Drawing.Size(129, 215);
             this.panelBook2.MinimumSize = new System.Drawing.Size(129, 174);
             this.panelBook2.Name = "panelBook2";
-            this.panelBook2.Size = new System.Drawing.Size(129, 174);
+            this.panelBook2.Size = new System.Drawing.Size(129, 214);
             this.panelBook2.TabIndex = 5;
             // 
             // tBTitleBook2
@@ -439,11 +420,12 @@
             this.tBTitleBook2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tBTitleBook2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tBTitleBook2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tBTitleBook2.Location = new System.Drawing.Point(0, 139);
+            this.tBTitleBook2.Location = new System.Drawing.Point(0, 154);
             this.tBTitleBook2.MaxLength = 131;
+            this.tBTitleBook2.Multiline = true;
             this.tBTitleBook2.Name = "tBTitleBook2";
             this.tBTitleBook2.ReadOnly = true;
-            this.tBTitleBook2.Size = new System.Drawing.Size(125, 31);
+            this.tBTitleBook2.Size = new System.Drawing.Size(125, 56);
             this.tBTitleBook2.TabIndex = 3;
             this.tBTitleBook2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -465,10 +447,10 @@
             this.panelBook3.Controls.Add(this.pictureBook3);
             this.panelBook3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBook3.Location = new System.Drawing.Point(273, 3);
-            this.panelBook3.MaximumSize = new System.Drawing.Size(129, 174);
+            this.panelBook3.MaximumSize = new System.Drawing.Size(129, 215);
             this.panelBook3.MinimumSize = new System.Drawing.Size(129, 174);
             this.panelBook3.Name = "panelBook3";
-            this.panelBook3.Size = new System.Drawing.Size(129, 174);
+            this.panelBook3.Size = new System.Drawing.Size(129, 214);
             this.panelBook3.TabIndex = 4;
             // 
             // tBTitleBook3
@@ -476,7 +458,7 @@
             this.tBTitleBook3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tBTitleBook3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tBTitleBook3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tBTitleBook3.Location = new System.Drawing.Point(0, 141);
+            this.tBTitleBook3.Location = new System.Drawing.Point(0, 181);
             this.tBTitleBook3.MaxLength = 131;
             this.tBTitleBook3.Name = "tBTitleBook3";
             this.tBTitleBook3.ReadOnly = true;
@@ -504,8 +486,6 @@
             this.ClientSize = new System.Drawing.Size(1036, 661);
             this.ControlBox = false;
             this.Controls.Add(this.tableBooks);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBoxNext);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.genre);
@@ -518,12 +498,9 @@
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Жанры";
-            this.Load += new System.EventHandler(this.Жанры_Load);
             this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNext)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableBooks.ResumeLayout(false);
             this.panelBook4.ResumeLayout(false);
             this.panelBook4.PerformLayout();
@@ -563,8 +540,6 @@
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.Label genre;
         private System.Windows.Forms.Button comiks;
-        private System.Windows.Forms.PictureBox pictureBoxNext;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TableLayoutPanel tableBooks;
         private System.Windows.Forms.Panel panelBook3;
         private System.Windows.Forms.TextBox tBTitleBook3;

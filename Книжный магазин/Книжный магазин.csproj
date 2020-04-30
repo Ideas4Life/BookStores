@@ -246,14 +246,8 @@
     <Content Include="DataBase\DB_BookStore.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\Ася Казанцева.jpg" />
-    <Content Include="Resources\Виктор Франкель.jpg" />
-    <Content Include="Resources\Дженнифер Петрильери.jpg" />
-    <Content Include="Resources\adad-awd.jpg" />
-    <Content Include="Resources\Евгений_Никифоров.jpg" />
-    <Content Include="Resources\Лариса Пыжьянова.jpg" />
-    <Content Include="Resources\Ольга Смолина.jpg" />
-    <Content Include="Resources\Рич Карлгаард.jpg" />
+    <None Include="Resources\pticafeniks.jpg" />
+    <Content Include="Resources\adad-awd.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
