@@ -192,7 +192,7 @@ namespace Книжный_магазин
                 var pictBox = (pn.Controls["pictureBook" + Convert.ToString(i)] as PictureBox);
                 pictBox.SizeMode = PictureBoxSizeMode.StretchImage;
                 pictBox.Size = new Size(pictBox.Width, pn.Height - textBx.Height);
-                Object rm = Resources.ResourceManager.GetObject("_Mastercard-512");
+                Object rm = Resources.ResourceManager.GetObject(listDataBase[i - 1].author);
                 pictBox.Image = (Image)rm;
 
                 //добавлениие события нажатия на фотографии

@@ -197,7 +197,6 @@
             // 
             // panel2
             // 
-            this.panel2.BackgroundImage = global::Книжный_магазин.Properties.Resources._28_512;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel2.Location = new System.Drawing.Point(7, 2);
             this.panel2.Name = "panel2";
@@ -481,7 +480,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Книжный_магазин.Properties.Resources.ptica_feniks1;
+            this.BackgroundImage = global::Книжный_магазин.Properties.Resources.ptica_feniks_orig;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1036, 661);
             this.ControlBox = false;

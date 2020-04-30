@@ -118,73 +118,112 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Arrows-Drawn-THIN-O-28-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrows-Drawn-THIN-O-28-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="008_040_home_apartment_house_building_2-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\008_040_home_apartment_house_building_2-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="People_Add_man_account_profile_men-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\People_Add_man_account_profile_men-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ptica-feniks.orig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptica-feniks.orig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ptica-feniks3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptica-feniks.orig3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconfinder_icon-21-eye-hidden_3148581" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconfinder_icon-21-eye-hidden_3148581.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ptica-feniks1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptica-feniks.orig1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Лариса Пыжьянова" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Лариса Пыжьянова.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Дженнифер Петрильери" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Дженнифер Петрильери.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="28-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\28-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_Mastercard-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_Mastercard-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="011_018_palm_fingers_five-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\011_018_palm_fingers_five-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="28-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\28-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_v.18-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_v.18-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purchase_basket_shop-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purchase_basket_shop-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Рич Карлгаард" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Рич Карлгаард.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Peoples_group_man_account_profile_men-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Peoples_group_man_account_profile_men-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ptica-feniks2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ptica-feniks.orig2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wildlife_animal_bird_eagle_wild_harpy_forest_amazon-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wildlife_animal_bird_eagle_wild_harpy_forest_amazon-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="People_Add_man_account_profile_men-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\People_Add_man_account_profile_men-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Arrows-Drawn-THIN-O-28-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Arrows-Drawn-THIN-O-28-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="28-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\28-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="purchase_basket_shop-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\purchase_basket_shop-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="011_018_palm_fingers_five-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\011_018_palm_fingers_five-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UI_-_OUTLINE__GLIPH-15-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UI_-_OUTLINE__GLIPH-15-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ptica-feniks1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ptica-feniks.orig1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="World_of_WarCraft_Magical_animals_Phoenix_520139_3840x2400" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\World_of_WarCraft_Magical_animals_Phoenix_520139_3840x2400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ptica-feniks4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ptica-feniks.orig4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="school_book_noterbook-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\school_book_noterbook-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_Mastercard-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_Mastercard-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iconfinder_icon-21-eye-hidden_314858" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconfinder_icon-21-eye-hidden_314858.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="VISA-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VISA-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="wildlife_animal_bird_eagle_wild_harpy_forest_amazon-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wildlife_animal_bird_eagle_wild_harpy_forest_amazon-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Виктор Франкель" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Виктор Франкель.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ольга Смолина" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ольга Смолина.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="016_014_shop_shopping_bag-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\016_014_shop_shopping_bag-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ptica-feniks.orig" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ptica-feniks.orig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ptica-feniks4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptica-feniks.orig4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="008_040_home_apartment_house_building_2-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\008_040_home_apartment_house_building_2-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="World_of_WarCraft_Magical_animals_Phoenix_520139_3840x2400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World_of_WarCraft_Magical_animals_Phoenix_520139_3840x2400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ptica-feniks3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ptica-feniks.orig3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Евгений Никифоров" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Евгений Никифоров.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="28-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\28-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="UI_-_OUTLINE__GLIPH-15-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_-_OUTLINE__GLIPH-15-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="arrow_v.18-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_v.18-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconfinder_icon-21-eye-hidden_314858" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconfinder_icon-21-eye-hidden_314858.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconfinder_icon-21-eye-hidden_3148581" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconfinder_icon-21-eye-hidden_3148581.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ася Казанцева" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ася Казанцева.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Джун Кю Ли, Хван Син" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Джун Кю Ли, Хван Син.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Кю Айя" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Кю Айя.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ромари Моско, Джон Чад" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ромари Моско, Джон Чад.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Саки Отто, Накамура Томоки" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Саки Отто, Накамура Томоки.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Томэ Кэи" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Томэ Кэи.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Фред Ван Ленте, Райан Данлеви" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Фред Ван Ленте, Райан Данлеви.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

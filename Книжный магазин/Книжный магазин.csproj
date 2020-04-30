@@ -246,6 +246,19 @@
     <Content Include="DataBase\DB_BookStore.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Фред Ван Ленте, Райан Данлеви.jpg" />
+    <None Include="Resources\Томэ Кэи.jpg" />
+    <None Include="Resources\Саки Отто, Накамура Томоки.jpg" />
+    <None Include="Resources\Ромари Моско, Джон Чад.jpg" />
+    <None Include="Resources\Кю Айя.jpg" />
+    <None Include="Resources\Джун Кю Ли, Хван Син.jpg" />
+    <None Include="Resources\Ася Казанцева.png" />
+    <None Include="Resources\Рич Карлгаард.jpg" />
+    <None Include="Resources\Ольга Смолина.jpg" />
+    <None Include="Resources\Лариса Пыжьянова.jpg" />
+    <None Include="Resources\Евгений Никифоров.jpg" />
+    <None Include="Resources\Дженнифер Петрильери.jpg" />
+    <None Include="Resources\Виктор Франкель.jpg" />
     <None Include="Resources\pticafeniks.jpg" />
     <Content Include="Resources\adad-awd.png" />
   </ItemGroup>
